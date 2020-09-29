@@ -68,15 +68,28 @@ header{
     display:flex;
     justify-content: center;
 }
+
 nav{
     width:30%;
     display:flex;
     justify-content:space-evenly;
     margin-top:5%;
 }
+
+
+@media screen and (max-width: 800px) {
+   header nav a{
+        width: 33.3%;
+        padding: 12px;
+    }
+}
+
+
 nav a{
     color:#626262;
 }
+
+
 nav span{
     border-left:3px solid #626262;
 
@@ -99,6 +112,13 @@ nav span{
     height:60vh;
     margin:5% 0;
 }	
+
+@media screen and (max-width: 800px) {
+    .title-container div {
+        width: 100%;
+    }
+}
+
 .title-container div:hover {	
     opacity: 80%;	
 }	
@@ -127,10 +147,30 @@ button:hover{
     margin:0 auto;
 }
 
+@media screen and (max-width: 800px) {
+    .artists-container {
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+    }
+}
+
 .artist{
     width:40%;
     text-align:center;
 }
+
+@media screen and (max-width: 800px) {
+    .artist {
+        width: 100%;
+        
+
+    }
+}
+
 .artist img{
     width:100%;
 }
+
+
+    }

@@ -225,7 +225,7 @@ console.log(artitsts[9])
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 function getArtistByIndex(array, index) {
-     console.log(object.values(`The artist at index {object.id} is {object.name}.`))
+     console.log(object.values(`The artist at index ${artists[object.id]} is ${artists[object.name]}.`))
  
 }
 
@@ -234,7 +234,7 @@ function getArtistByIndex(array, index) {
 function get20s(artists){
 
   for (let i = 0; i < 21; i++) {
-    if (years >= 1900 && years <= 2000) {
+    if (years >= 1800 && years <= 1900) {
     }
       console.log(object.name);
   }
